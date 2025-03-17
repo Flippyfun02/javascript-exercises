@@ -1,5 +1,5 @@
 const removeFromArray = function(arr, ... items) {
-    i = 0;
+    let i = 0;
     while (i < arr.length) {
         for (var item of items) {
             if (arr[i] === item) {
