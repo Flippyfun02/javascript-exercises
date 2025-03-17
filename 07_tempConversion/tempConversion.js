@@ -1,5 +1,5 @@
 const convertToCelsius = function(farenheit) {
-  celsius = (farenheit - 32) * (5/9);
+  let celsius = (farenheit - 32) * (5/9);
   if (celsius % 1 == 0) {
     return celsius;
   }
@@ -7,7 +7,7 @@ const convertToCelsius = function(farenheit) {
 };
 
 const convertToFahrenheit = function(celsius) {
-  farenheit = (celsius * (9/5)) + 32;
+  let farenheit = (celsius * (9/5)) + 32;
   if (farenheit % 1 == 0) {
     return farenheit;
   }
